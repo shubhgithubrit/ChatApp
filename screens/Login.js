@@ -33,7 +33,7 @@ export default function LogiScreen({navigation}) {
             
             Refresh();
             try{
-                navigation.navigate('')
+                navigation.navigate('Drawer')
                 
             } catch(err) {
                alert(err);

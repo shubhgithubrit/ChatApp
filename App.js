@@ -45,8 +45,14 @@ export default function App() {
             component={SignupScreen}
             options={{ headerShown: true }}
           />
-
            <Stack.Screen
+            name="Drawer"
+            component={Drawer}
+            options={{ headerShown: true }}
+          />
+         
+
+           {/* <Stack.Screen
             name="Chat"
             component={Chats}
             options={{ headerShown: true }}
@@ -71,7 +77,7 @@ export default function App() {
             options={{ headerShown: true }}
           />
          
-                 
+                  */}
 
         </Stack.Navigator>
       </NavigationContainer>
